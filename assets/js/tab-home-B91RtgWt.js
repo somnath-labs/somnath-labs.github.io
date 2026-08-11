@@ -1,6 +1,6 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
 import { $ as require_jsx_runtime, A as createLucideIcon, B as supportsViewTimeline, D as Bot, F as microtask, G as frameData, H as interpolate, I as isHTMLElement, J as noop, K as velocityPerSecond, L as collectMotionValues, M as MotionConfigContext, N as resize, P as cancelMicrotask, Q as useConstant, R as motionValue, S as Layers, T as Cloud, U as cancelFrame, V as defaultOffset$1, W as frame, X as clamp, Y as invariant, Z as useIsomorphicLayoutEffect, a as fallbackLanguages, ct as require_react, i as fallbackEducation, j as motion, k as ArrowRight, m as getPublicSkills, n as fallbackAwards, o as fallbackProfile, q as progress, r as fallbackCertifications, t as About, tt as Link, w as Cpu, y as Sparkles, z as supportsScrollTimeline } from "./tab-about-C7I1RF7V.js";
-import { a as Globe, i as MessageSquare, n as fallbackContactInfo, r as fallbackSocialLinks, t as Contact } from "./tab-contact-BYM0k8Er.js";
+import { a as Globe, i as MessageSquare, n as fallbackContactInfo, r as fallbackSocialLinks, t as Contact } from "./tab-contact-BMS7bVZw.js";
 import { n as fallbackExperiences, t as Experience } from "./tab-experience-p5XJdvQs.js";
 //#region node_modules/motion-dom/dist/es/scroll/observe.mjs
 function observeTimeline(update, timeline) {

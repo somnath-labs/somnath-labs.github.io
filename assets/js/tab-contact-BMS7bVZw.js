@@ -526,7 +526,7 @@ var fallbackSocialLinks = [{
 }, {
 	id: "s-linkedin",
 	platform: "LinkedIn",
-	url: "https://linkedin.com",
+	url: "https://www.linkedin.com/in/somnath-haldar-430a3b151/",
 	username: "",
 	show_on_website: true,
 	order: 2,
@@ -788,7 +788,7 @@ function Contact() {
 					className: "lg:col-span-7",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ContactForm, {
 						emailAddress: info.email,
-						linkedInUrl: socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url || "https://linkedin.com"
+						linkedInUrl: socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url && socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url !== "https://linkedin.com" ? socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url : "https://www.linkedin.com/in/somnath-haldar-430a3b151/"
 					})
 				})]
 			})]

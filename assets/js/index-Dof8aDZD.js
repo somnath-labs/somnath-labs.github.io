@@ -1,10 +1,10 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
 import { $ as require_jsx_runtime, E as Briefcase, S as Layers, _ as User, at as useLocation, ct as require_react, et as HashRouter, it as Routes, j as motion, nt as Navigate, ot as useNavigate, rt as Route, t as About, tt as Link, x as Mail } from "./tab-about-C7I1RF7V.js";
 import { a as require_client, i as Moon, n as Sun, r as Plus, t as Trash2 } from "./vendor-react-z-nbV2cj.js";
-import { t as Resume } from "./tab-resume-DfwfstBm.js";
-import { A as getSocialLinks, B as updateSocialLink, C as getDashboardStats, D as getProjects, F as updateExperience, H as FolderGit2, I as updateLanguage, K as CodeXml, L as updateProject, M as updateAward, N as updateCertification, O as getSiteSettings, P as updateContactInfo, R as updateSiteSettings, S as getContactInfo, T as getLanguages, _ as deleteSkill, a as createAward, b as getAwards, c as createLanguage, d as createSocialLink, f as deleteAward, g as deleteProject, h as deleteLanguage, i as create, j as update, k as getSkills, l as createProject, m as deleteExperience, n as Projects, o as createCertification, p as deleteCertification, s as createExperience, t as Home, u as createSkill, v as deleteSocialLink, w as getExperiences, x as getCertifications, y as getAll, z as updateSkill } from "./tab-home-BRUQjdG5.js";
-import { t as ProjectDetail } from "./tab-projectdetail-B-18I3_7.js";
-import { o as Clock, t as Contact } from "./tab-contact-BYM0k8Er.js";
+import { t as Resume } from "./tab-resume-D48qi5L1.js";
+import { A as getSocialLinks, B as updateSocialLink, C as getDashboardStats, D as getProjects, F as updateExperience, H as FolderGit2, I as updateLanguage, K as CodeXml, L as updateProject, M as updateAward, N as updateCertification, O as getSiteSettings, P as updateContactInfo, R as updateSiteSettings, S as getContactInfo, T as getLanguages, _ as deleteSkill, a as createAward, b as getAwards, c as createLanguage, d as createSocialLink, f as deleteAward, g as deleteProject, h as deleteLanguage, i as create, j as update, k as getSkills, l as createProject, m as deleteExperience, n as Projects, o as createCertification, p as deleteCertification, s as createExperience, t as Home, u as createSkill, v as deleteSocialLink, w as getExperiences, x as getCertifications, y as getAll, z as updateSkill } from "./tab-home-B91RtgWt.js";
+import { t as ProjectDetail } from "./tab-projectdetail-CxoQ-XCB.js";
+import { o as Clock, t as Contact } from "./tab-contact-BMS7bVZw.js";
 import { t as Experience } from "./tab-experience-p5XJdvQs.js";
 import { n as House, t as NotFound } from "./tab-notfound-C-XZvmCE.js";
 //#region \0vite/modulepreload-polyfill.js
