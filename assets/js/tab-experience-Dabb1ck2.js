@@ -69,7 +69,7 @@ var fallbackExperiences = [
 	{
 		id: "x1",
 		company_id: "c1",
-		role: "Applications Consultant at Capgemni",
+		role: "Applications Consultant - Capgemni",
 		location: "Stockholm, Sweden",
 		start_date: "2026-04-01",
 		end_date: null,
@@ -96,7 +96,7 @@ var fallbackExperiences = [
 	{
 		id: "x2",
 		company_id: "c2",
-		role: "Associate at Cognizant",
+		role: "Associate - Cognizant",
 		location: "Kolkata, India",
 		start_date: "2025-05-01",
 		end_date: "2026-04-30",
@@ -120,7 +120,7 @@ var fallbackExperiences = [
 	{
 		id: "x3",
 		company_id: "c3",
-		role: "Associate Consultant at Capgemni",
+		role: "Associate Consultant - Capgemni",
 		location: "Kolkata, India",
 		start_date: "2021-12-01",
 		end_date: "2025-05-31",
