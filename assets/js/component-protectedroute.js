@@ -1,6 +1,6 @@
 import { r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, j as require_react } from "./component-agenticaisection.js";
-import { yt as Navigate } from "./component-dashboardstats.js";
+import { Ct as Navigate } from "./component-dashboardstats.js";
 //#region src/contexts/AuthContext.tsx
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var import_jsx_runtime = require_jsx_runtime();

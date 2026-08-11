@@ -1,5 +1,5 @@
 import { A as require_jsx_runtime } from "./component-agenticaisection.js";
-import { vt as Link } from "./component-dashboardstats.js";
+import { St as Link } from "./component-dashboardstats.js";
 import { r as Mail } from "./component-contactform.js";
 //#region src/components/public/Footer.tsx
 var import_jsx_runtime = require_jsx_runtime();

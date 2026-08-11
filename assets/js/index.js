@@ -1,17 +1,13 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/js/page-home.js","assets/js/rolldown-runtime.js","assets/js/component-agenticaisection.js","assets/js/component-dashboardstats.js","assets/js/component-contactform.js","assets/js/component-resumedisplay.js","assets/js/component-pegacloudsection.js","assets/js/component-pegasection.js","assets/js/component-techstackhexgrid.js","assets/js/component-floatingdock.js","assets/js/page-projectdetail.js","assets/js/page-resume.js","assets/js/page-adminlogin.js","assets/js/component-protectedroute.js","assets/js/component-cyberbackground.js","assets/js/page-admindashboard.js","assets/js/component-datatable.js","assets/js/component-awardform.js","assets/js/component-experienceform.js","assets/js/component-skillform.js","assets/js/component-projectform.js","assets/js/component-profileform.js","assets/js/component-educationform.js","assets/js/component-certificationform.js","assets/js/component-languageform.js","assets/js/component-contactinfoform.js","assets/js/component-sitesettingsform.js"])))=>i.map(i=>d[i]);
 import { r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, j as require_react } from "./component-agenticaisection.js";
 import { t as require_client } from "./vendor-react.js";
-import { B as Contact, G as About, V as Experience, _t as HashRouter, bt as Route, n as Projects, xt as Routes } from "./component-dashboardstats.js";
+import { Tt as Routes, kt as __vitePreload, wt as Route, xt as HashRouter } from "./component-dashboardstats.js";
 import { n as AuthProvider, t as ProtectedRoute } from "./component-protectedroute.js";
-import { t as Home } from "./page-home.js";
-import { t as ProjectDetail } from "./page-projectdetail.js";
 import { t as FloatingDock } from "./component-floatingdock.js";
 import { t as Navigation } from "./component-navigation.js";
-import { t as AdminDashboard } from "./page-admindashboard.js";
-import { t as Resume } from "./page-resume.js";
-import { t as CyberBackground } from "./component-cyberbackground.js";
-import { t as AdminLogin } from "./page-adminlogin.js";
 import { t as Footer } from "./component-footer.js";
+import { t as CyberBackground } from "./component-cyberbackground.js";
 import { t as NotFound } from "./page-notfound.js";
 //#region \0vite/modulepreload-polyfill.js
 (function polyfill() {
@@ -50,6 +46,13 @@ var import_client = require_client();
 //#endregion
 //#region src/routes/publicRoutes.tsx
 var import_jsx_runtime = require_jsx_runtime();
+var Home = (0, import_react.lazy)(() => __vitePreload(() => import("./page-home.js").then((n) => n.t), __vite__mapDeps([0,1,2,3,4,5,6,7,8,9])));
+var About = (0, import_react.lazy)(() => __vitePreload(() => import("./component-dashboardstats.js").then((n) => n.Y), __vite__mapDeps([3,1,2,4])));
+var Experience = (0, import_react.lazy)(() => __vitePreload(() => import("./component-dashboardstats.js").then((n) => n.W), __vite__mapDeps([3,1,2,4])));
+var Projects = (0, import_react.lazy)(() => __vitePreload(() => import("./component-dashboardstats.js").then((n) => n.V), __vite__mapDeps([3,1,2,4])));
+var ProjectDetail = (0, import_react.lazy)(() => __vitePreload(() => import("./page-projectdetail.js").then((n) => n.t), __vite__mapDeps([10,1,2,3,4,7])));
+var Resume = (0, import_react.lazy)(() => __vitePreload(() => import("./page-resume.js").then((n) => n.t), __vite__mapDeps([11,1,2,5,3,4])));
+var Contact = (0, import_react.lazy)(() => __vitePreload(() => import("./component-dashboardstats.js").then((n) => n.q), __vite__mapDeps([3,1,2,4])));
 var publicRoutes = [
 	{
 		path: "/",
@@ -82,6 +85,8 @@ var publicRoutes = [
 ];
 //#endregion
 //#region src/routes/adminRoutes.tsx
+var AdminLogin = (0, import_react.lazy)(() => __vitePreload(() => import("./page-adminlogin.js").then((n) => n.t), __vite__mapDeps([12,1,2,3,4,13,14])));
+var AdminDashboard = (0, import_react.lazy)(() => __vitePreload(() => import("./page-admindashboard.js").then((n) => n.t), __vite__mapDeps([15,1,2,3,4,13,14,16,17,18,19,20,21,22,23,24,25,26])));
 var ADMIN_ROUTE = "/x8k2m5n7-studio-console";
 var adminRoutes = [{
 	path: `${ADMIN_ROUTE}/login`,
@@ -108,20 +113,26 @@ function PublicLayout({ children }) {
 	});
 }
 function App() {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AuthProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HashRouter, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Routes, { children: [
-		publicRoutes.map((route) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
-			path: route.path,
-			element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicLayout, { children: route.element })
-		}, route.path)),
-		adminRoutes.map((route) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
-			path: route.path,
-			element: route.element
-		}, route.path)),
-		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
-			path: "*",
-			element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicLayout, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(NotFound, {}) })
-		})
-	] }) }) });
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AuthProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HashRouter, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.Suspense, {
+		fallback: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "min-h-screen flex items-center justify-center text-cyan-400",
+			children: "Loading..."
+		}),
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Routes, { children: [
+			publicRoutes.map((route) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+				path: route.path,
+				element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicLayout, { children: route.element })
+			}, route.path)),
+			adminRoutes.map((route) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+				path: route.path,
+				element: route.element
+			}, route.path)),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
+				path: "*",
+				element: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PublicLayout, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(NotFound, {}) })
+			})
+		] })
+	}) }) });
 }
 //#endregion
 //#region src/main.tsx

@@ -1,5 +1,5 @@
 import { r as __toESM } from "./rolldown-runtime.js";
-import { A as require_jsx_runtime, c as motion, j as require_react } from "./component-agenticaisection.js";
+import { A as require_jsx_runtime, j as require_react, n as motion } from "./component-agenticaisection.js";
 //#region src/components/public/CyberBackground.tsx
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var import_jsx_runtime = require_jsx_runtime();

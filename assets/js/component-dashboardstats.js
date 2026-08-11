@@ -1,5 +1,5 @@
-import { r as __toESM } from "./rolldown-runtime.js";
-import { A as require_jsx_runtime, a as Cpu, c as motion, i as MessageSquare, j as require_react, o as Bot, r as Sparkles, s as createLucideIcon } from "./component-agenticaisection.js";
+import { n as __exportAll, r as __toESM } from "./rolldown-runtime.js";
+import { A as require_jsx_runtime, D as Cpu, E as MessageSquare, O as Bot, T as Sparkles, j as require_react, k as createLucideIcon, n as motion } from "./component-agenticaisection.js";
 import { n as User, r as Mail, t as ContactForm } from "./component-contactform.js";
 //#region \0vite/preload-helper.js
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
@@ -4792,6 +4792,14 @@ function ExpertiseShowcase() {
 }
 //#endregion
 //#region src/pages/public/About.tsx
+var About_exports = /* @__PURE__ */ __exportAll({
+	default: () => About,
+	fallbackAwards: () => fallbackAwards,
+	fallbackCertifications: () => fallbackCertifications,
+	fallbackEducation: () => fallbackEducation,
+	fallbackLanguages: () => fallbackLanguages,
+	fallbackProfile: () => fallbackProfile
+});
 var fallbackProfile = {
 	id: "fallback",
 	email: "",
@@ -5395,287 +5403,320 @@ function About() {
 	});
 }
 //#endregion
-//#region src/pages/public/SkillsSection.tsx
-var cvSkills = [
-	{
-		id: "s1",
-		category_id: "c1",
-		name: "Pega PRPC",
-		icon: "",
-		description: "Enterprise BPM & case management",
-		experience: "4+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 1,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s2",
-		category_id: "c1",
-		name: "Pega Constellation",
-		icon: "",
-		description: "Modern UI architecture",
-		experience: "2+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 2,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s3",
-		category_id: "c1",
-		name: "Pega CRM Framework",
-		icon: "",
-		description: "Customer relationship management",
-		experience: "3+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 3,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s4",
-		category_id: "c1",
-		name: "Pega Sales Automation",
-		icon: "",
-		description: "Sales platform automation",
-		experience: "2+ years",
-		level: "secondary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 4,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s5",
-		category_id: "c1",
-		name: "Pega DX-API",
-		icon: "",
-		description: "Headless Pega applications",
-		experience: "2+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 5,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s6",
-		category_id: "c3",
-		name: "React Js",
-		icon: "",
-		description: "Frontend development",
-		experience: "2+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 6,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s7",
-		category_id: "c3",
-		name: "HTML, CSS",
-		icon: "",
-		description: "Web fundamentals",
-		experience: "4+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 7,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s8",
-		category_id: "c3",
-		name: "DX Custom Component",
-		icon: "",
-		description: "Custom Constellation components",
-		experience: "2+ years",
-		level: "secondary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 8,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s9",
-		category_id: "c2",
-		name: "SQL Server",
-		icon: "",
-		description: "Relational database management",
-		experience: "3+ years",
-		level: "primary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 9,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s10",
-		category_id: "c2",
-		name: "Service Now",
-		icon: "",
-		description: "ITSM platform",
-		experience: "2+ years",
-		level: "secondary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 10,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s11",
-		category_id: "c2",
-		name: "ALM / JIRA / Confluence",
-		icon: "",
-		description: "Agile lifecycle management",
-		experience: "4+ years",
-		level: "secondary",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 11,
-		created_at: "",
-		updated_at: ""
-	},
-	{
-		id: "s12",
-		category_id: "c2",
-		name: "Agile Methodology",
-		icon: "",
-		description: "Scrum and Kanban frameworks",
-		experience: "4+ years",
-		level: "exploring",
-		featured: true,
-		show_on_website: true,
-		show_on_resume: true,
-		order: 12,
-		created_at: "",
-		updated_at: ""
-	}
-];
-var skillLevelColor = {
-	primary: "accent-cyan border-cyan-500/40 bg-cyan-500/10",
-	secondary: "accent-blue border-blue-500/40 bg-blue-500/10",
-	exploring: "accent-fuchsia border-fuchsia-500/40 bg-fuchsia-500/10"
+//#region src/pages/public/Contact.tsx
+var Contact_exports = /* @__PURE__ */ __exportAll({
+	default: () => Contact,
+	fallbackContactInfo: () => fallbackContactInfo,
+	fallbackSocialLinks: () => fallbackSocialLinks
+});
+var GitHubIcon = ({ size = 20 }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", {
+	width: size,
+	height: size,
+	viewBox: "0 0 24 24",
+	fill: "currentColor",
+	className: "shrink-0",
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" })
+});
+var LinkedInIcon = ({ size = 20 }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", {
+	width: size,
+	height: size,
+	viewBox: "0 0 24 24",
+	fill: "currentColor",
+	className: "shrink-0",
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" })
+});
+var fallbackContactInfo = {
+	id: "fallback-contact",
+	heading: "Let's Build Something Great",
+	subtitle: "Have a question, opportunity, or just want to say hello? I'd love to hear from you — let's start a conversation.",
+	email: "somnathhaldar14@gmail.com",
+	phone: "+46 70 000 00 00",
+	location: "Stockholm, Sweden",
+	availability: "Open to opportunities",
+	response_time: "I typically respond within 24-48 hours. For urgent opportunities, mention it in your message and I'll prioritize it.",
+	show_on_website: true,
+	created_at: "",
+	updated_at: ""
 };
-function SkillsSection() {
-	const [skills, setSkills] = (0, import_react.useState)([]);
+var fallbackSocialLinks = [{
+	id: "s-github",
+	platform: "GitHub",
+	url: "https://github.com/somnath-labs",
+	username: "",
+	show_on_website: true,
+	order: 1,
+	created_at: "",
+	updated_at: ""
+}, {
+	id: "s-linkedin",
+	platform: "LinkedIn",
+	url: "https://www.linkedin.com/in/somnath-haldar-430a3b151/",
+	username: "",
+	show_on_website: true,
+	order: 2,
+	created_at: "",
+	updated_at: ""
+}];
+var fadeUp = {
+	hidden: {
+		opacity: 0,
+		y: 24
+	},
+	show: {
+		opacity: 1,
+		y: 0,
+		transition: {
+			duration: .55,
+			ease: [
+				.22,
+				1,
+				.36,
+				1
+			]
+		}
+	}
+};
+function socialIcon(platform, size = 20) {
+	const p = platform.toLowerCase();
+	if (p.includes("github")) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(GitHubIcon, { size });
+	if (p.includes("linkedin")) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LinkedInIcon, { size });
+	if (p.includes("mail") || p.includes("email")) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size });
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Globe, { size });
+}
+function Contact() {
+	const [contact, setContact] = (0, import_react.useState)(null);
+	const [socialLinks, setSocialLinks] = (0, import_react.useState)([]);
 	(0, import_react.useEffect)(() => {
-		loadData();
+		loadContact();
 	}, []);
-	const loadData = async () => {
+	const loadContact = async () => {
 		try {
-			const s = await getPublicSkills();
-			setSkills(s.length > 0 ? s : cvSkills);
+			const [info, links] = await Promise.all([getPublicContactInfo(), getPublicSocialLinks()]);
+			setContact(info ?? fallbackContactInfo);
+			setSocialLinks(links.length > 0 ? links : fallbackSocialLinks);
 		} catch {
-			setSkills(cvSkills);
+			setContact(fallbackContactInfo);
+			setSocialLinks(fallbackSocialLinks);
 		}
 	};
-	const primarySkills = skills.filter((s) => s.level === "primary");
-	const secondarySkills = skills.filter((s) => s.level === "secondary");
-	const exploringSkills = skills.filter((s) => s.level === "exploring");
+	const info = contact ?? fallbackContactInfo;
+	const socials = socialLinks.length > 0 ? socialLinks : fallbackSocialLinks;
+	const contactRows = [
+		{
+			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size: 18 }),
+			label: "Email",
+			value: info.email,
+			href: `mailto:${info.email}`,
+			accent: "accent-cyan",
+			gradient: "from-cyan-500/30 to-sky-500/10"
+		},
+		{
+			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { size: 18 }),
+			label: "Location",
+			value: info.location,
+			href: null,
+			accent: "accent-emerald",
+			gradient: "from-emerald-500/30 to-teal-500/10"
+		},
+		{
+			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, { size: 18 }),
+			label: "Availability",
+			value: info.availability,
+			href: null,
+			accent: "accent-amber",
+			gradient: "from-amber-500/30 to-orange-500/10"
+		}
+	];
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: "relative pb-20",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
-				initial: {
-					opacity: 0,
-					y: 25
-				},
-				whileInView: {
-					opacity: 1,
-					y: 0
-				},
-				viewport: { once: true },
-				transition: { duration: .6 },
+		className: "relative pb-24 px-4 sm:px-6 lg:px-8",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "max-w-7xl mx-auto pt-10 lg:pt-14",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+				initial: "hidden",
+				animate: "show",
+				variants: fadeUp,
+				className: "text-center mb-12 lg:mb-16",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "inline-flex items-center gap-2 px-4 py-1.5 rounded-full hyper-glass border border-cyan-500/30 text-xs font-medium accent-cyan mb-5",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageSquare, { className: "w-3.5 h-3.5" }), "Get In Touch"]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+						className: "cyber-section-title text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-5",
+						children: info.heading
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-base sm:text-lg text-soft font-light max-w-2xl mx-auto",
+						children: info.subtitle
+					})
+				]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-center gap-3 mb-8",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "p-2.5 rounded-xl bg-gradient-to-br from-purple-600/30 to-cyan-500/20 border border-white/10",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cpu, { className: "w-5 h-5 accent-cyan" })
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "cyber-section-title text-2xl sm:text-3xl font-black tracking-tight",
-						children: "Skills & Toolbox"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xs text-faint font-light mt-0.5",
-						children: "Technologies I build with every day"
-					})] })]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+					className: "lg:col-span-5 space-y-6",
 					children: [
-						...primarySkills,
-						...secondarySkills,
-						...exploringSkills
-					].map((skill, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
-						initial: {
-							opacity: 0,
-							y: 20
-						},
-						whileInView: {
-							opacity: 1,
-							y: 0
-						},
-						viewport: { once: true },
-						transition: {
-							duration: .5,
-							delay: index * .05
-						},
-						whileHover: { y: -5 },
-						className: "hyper-glass rounded-xl p-5 border line-soft cyber-card-hover",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-start justify-between gap-2 mb-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-sm font-bold text-strong tracking-wide",
-									children: skill.name
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: `px-2 py-0.5 rounded-full text-[10px] font-semibold border ${skillLevelColor[skill.level] || skillLevelColor.exploring}`,
-									children: skill.level
-								})]
-							}),
-							skill.description && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-xs text-faint font-light mb-3",
-								children: skill.description
-							}),
-							skill.experience && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-1.5 text-[11px] accent-cyan font-mono",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" }), skill.experience]
-							})
-						]
-					}, skill.id))
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+							initial: "hidden",
+							animate: "show",
+							variants: fadeUp,
+							transition: { delay: .1 },
+							className: "hyper-glass rounded-3xl p-6 sm:p-7 border border-purple-500/30 relative overflow-hidden",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-purple-500 via-fuchsia-500 to-indigo-500" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex items-center gap-4",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "relative flex-shrink-0",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "absolute inset-0 rounded-full animate-spin-ring opacity-50",
+												style: { border: "2px dashed var(--acc-cyan)" }
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+												src: "/avatar.png",
+												alt: "Somnath Haldar",
+												className: "w-20 h-20 rounded-full object-cover border-2 shadow-lg animate-glow-ring",
+												style: { borderColor: "var(--acc-cyan)" }
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "absolute bottom-0.5 right-0.5 w-5 h-5 rounded-full bg-emerald-400 border-2 shadow-md",
+												style: { borderColor: "var(--bg-top)" }
+											})
+										]
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "min-w-0",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+												className: "text-xl font-black text-strong tracking-tight",
+												children: "Somnath Haldar"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: "text-xs font-semibold neon-subtitle-gradient mt-0.5",
+												children: "Pega Developer • AI Builder"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "inline-flex items-center gap-1.5 mt-2 px-2.5 py-1 rounded-full surface-soft border line-soft text-[10px] font-semibold accent-emerald",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" }), info.availability]
+											})
+										]
+									})]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "flex flex-wrap gap-2 mt-5 pt-5 border-t line-soft",
+									children: [
+										"Full-time",
+										"Contract",
+										"Freelance",
+										"Remote"
+									].map((chip) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "cyber-chip text-[11px]! px-2.5! py-1!",
+										children: chip
+									}, chip))
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+							initial: "hidden",
+							animate: "show",
+							variants: fadeUp,
+							transition: { delay: .18 },
+							className: "hyper-glass rounded-3xl p-6 sm:p-7 border border-cyan-500/30 relative overflow-hidden",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-600" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h3", {
+									className: "text-sm font-bold text-strong tracking-wide mb-5 flex items-center gap-2",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-4 h-4 accent-cyan" }), " Contact Info"]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "space-y-4",
+									children: contactRows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex items-center gap-3.5 group",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: `p-2.5 rounded-xl bg-gradient-to-br ${row.gradient} border border-white/10 flex-shrink-0`,
+											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: row.accent,
+												children: row.icon
+											})
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "min-w-0",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "text-[10px] font-semibold text-faint uppercase tracking-wider",
+												children: row.label
+											}), row.href ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+												href: row.href,
+												className: "text-sm font-medium text-soft hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors flex items-center gap-1 truncate",
+												children: [row.value, /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {
+													size: 12,
+													className: "opacity-0 group-hover:opacity-100 transition-opacity"
+												})]
+											}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "text-sm font-medium text-strong truncate",
+												children: row.value
+											})]
+										})]
+									}, row.label))
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "mt-5 pt-4 border-t line-soft",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										className: "text-xs text-faint font-light leading-relaxed flex items-start gap-2",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, {
+											size: 13,
+											className: "accent-cyan flex-shrink-0 mt-0.5"
+										}), info.response_time]
+									})
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+							initial: "hidden",
+							animate: "show",
+							variants: fadeUp,
+							transition: { delay: .26 },
+							className: "hyper-glass rounded-3xl p-6 sm:p-7 border border-emerald-500/30 relative overflow-hidden",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-emerald-400 via-teal-500 to-cyan-500" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h3", {
+									className: "text-sm font-bold text-strong tracking-wide mb-5 flex items-center gap-2",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-4 h-4 accent-emerald" }), " Find Me Online"]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "grid grid-cols-2 sm:grid-cols-3 gap-3",
+									children: socials.filter((s) => s.show_on_website).map((social) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+										href: social.url,
+										target: social.url.startsWith("http") ? "_blank" : void 0,
+										rel: social.url.startsWith("http") ? "noopener noreferrer" : void 0,
+										className: `flex flex-col items-center gap-2 p-3.5 rounded-2xl surface-soft border line-soft text-soft hover:text-strong hover:border-cyan-500/50 hover:-translate-y-1 transition-all duration-300`,
+										children: [socialIcon(social.platform), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "text-[10px] font-semibold",
+											children: social.platform
+										})]
+									}, social.id))
+								})
+							]
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.div, {
+					initial: "hidden",
+					animate: "show",
+					variants: fadeUp,
+					transition: { delay: .2 },
+					className: "lg:col-span-7",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ContactForm, {
+						emailAddress: info.email,
+						linkedInUrl: socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url && socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url !== "https://linkedin.com" ? socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url : "https://www.linkedin.com/in/somnath-haldar-430a3b151/"
+					})
 				})]
-			})
+			})]
 		})
 	});
 }
 //#endregion
 //#region src/pages/public/Experience.tsx
+var Experience_exports = /* @__PURE__ */ __exportAll({
+	default: () => Experience,
+	fallbackExperiences: () => fallbackExperiences
+});
 var fallbackExperiences = [
 	{
 		id: "x1",
@@ -6047,514 +6088,11 @@ function ProjectCard({ project }) {
 	});
 }
 //#endregion
-//#region src/pages/public/Contact.tsx
-var GitHubIcon = ({ size = 20 }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", {
-	width: size,
-	height: size,
-	viewBox: "0 0 24 24",
-	fill: "currentColor",
-	className: "shrink-0",
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" })
-});
-var LinkedInIcon = ({ size = 20 }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", {
-	width: size,
-	height: size,
-	viewBox: "0 0 24 24",
-	fill: "currentColor",
-	className: "shrink-0",
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" })
-});
-var fallbackContactInfo = {
-	id: "fallback-contact",
-	heading: "Let's Build Something Great",
-	subtitle: "Have a question, opportunity, or just want to say hello? I'd love to hear from you — let's start a conversation.",
-	email: "somnathhaldar14@gmail.com",
-	phone: "+46 70 000 00 00",
-	location: "Stockholm, Sweden",
-	availability: "Open to opportunities",
-	response_time: "I typically respond within 24-48 hours. For urgent opportunities, mention it in your message and I'll prioritize it.",
-	show_on_website: true,
-	created_at: "",
-	updated_at: ""
-};
-var fallbackSocialLinks = [{
-	id: "s-github",
-	platform: "GitHub",
-	url: "https://github.com/somnath-labs",
-	username: "",
-	show_on_website: true,
-	order: 1,
-	created_at: "",
-	updated_at: ""
-}, {
-	id: "s-linkedin",
-	platform: "LinkedIn",
-	url: "https://www.linkedin.com/in/somnath-haldar-430a3b151/",
-	username: "",
-	show_on_website: true,
-	order: 2,
-	created_at: "",
-	updated_at: ""
-}];
-var fadeUp = {
-	hidden: {
-		opacity: 0,
-		y: 24
-	},
-	show: {
-		opacity: 1,
-		y: 0,
-		transition: {
-			duration: .55,
-			ease: [
-				.22,
-				1,
-				.36,
-				1
-			]
-		}
-	}
-};
-function socialIcon(platform, size = 20) {
-	const p = platform.toLowerCase();
-	if (p.includes("github")) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(GitHubIcon, { size });
-	if (p.includes("linkedin")) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LinkedInIcon, { size });
-	if (p.includes("mail") || p.includes("email")) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size });
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Globe, { size });
-}
-function Contact() {
-	const [contact, setContact] = (0, import_react.useState)(null);
-	const [socialLinks, setSocialLinks] = (0, import_react.useState)([]);
-	(0, import_react.useEffect)(() => {
-		loadContact();
-	}, []);
-	const loadContact = async () => {
-		try {
-			const [info, links] = await Promise.all([getPublicContactInfo(), getPublicSocialLinks()]);
-			setContact(info ?? fallbackContactInfo);
-			setSocialLinks(links.length > 0 ? links : fallbackSocialLinks);
-		} catch {
-			setContact(fallbackContactInfo);
-			setSocialLinks(fallbackSocialLinks);
-		}
-	};
-	const info = contact ?? fallbackContactInfo;
-	const socials = socialLinks.length > 0 ? socialLinks : fallbackSocialLinks;
-	const contactRows = [
-		{
-			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { size: 18 }),
-			label: "Email",
-			value: info.email,
-			href: `mailto:${info.email}`,
-			accent: "accent-cyan",
-			gradient: "from-cyan-500/30 to-sky-500/10"
-		},
-		{
-			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { size: 18 }),
-			label: "Location",
-			value: info.location,
-			href: null,
-			accent: "accent-emerald",
-			gradient: "from-emerald-500/30 to-teal-500/10"
-		},
-		{
-			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, { size: 18 }),
-			label: "Availability",
-			value: info.availability,
-			href: null,
-			accent: "accent-amber",
-			gradient: "from-amber-500/30 to-orange-500/10"
-		}
-	];
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: "relative pb-24 px-4 sm:px-6 lg:px-8",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "max-w-7xl mx-auto pt-10 lg:pt-14",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
-				initial: "hidden",
-				animate: "show",
-				variants: fadeUp,
-				className: "text-center mb-12 lg:mb-16",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "inline-flex items-center gap-2 px-4 py-1.5 rounded-full hyper-glass border border-cyan-500/30 text-xs font-medium accent-cyan mb-5",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageSquare, { className: "w-3.5 h-3.5" }), "Get In Touch"]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-						className: "cyber-section-title text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-5",
-						children: info.heading
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-base sm:text-lg text-soft font-light max-w-2xl mx-auto",
-						children: info.subtitle
-					})
-				]
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "lg:col-span-5 space-y-6",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
-							initial: "hidden",
-							animate: "show",
-							variants: fadeUp,
-							transition: { delay: .1 },
-							className: "hyper-glass rounded-3xl p-6 sm:p-7 border border-purple-500/30 relative overflow-hidden",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-purple-500 via-fuchsia-500 to-indigo-500" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "flex items-center gap-4",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "relative flex-shrink-0",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "absolute inset-0 rounded-full animate-spin-ring opacity-50",
-												style: { border: "2px dashed var(--acc-cyan)" }
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-												src: "/avatar.png",
-												alt: "Somnath Haldar",
-												className: "w-20 h-20 rounded-full object-cover border-2 shadow-lg animate-glow-ring",
-												style: { borderColor: "var(--acc-cyan)" }
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: "absolute bottom-0.5 right-0.5 w-5 h-5 rounded-full bg-emerald-400 border-2 shadow-md",
-												style: { borderColor: "var(--bg-top)" }
-											})
-										]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "min-w-0",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-												className: "text-xl font-black text-strong tracking-tight",
-												children: "Somnath Haldar"
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-xs font-semibold neon-subtitle-gradient mt-0.5",
-												children: "Pega Developer • AI Builder"
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "inline-flex items-center gap-1.5 mt-2 px-2.5 py-1 rounded-full surface-soft border line-soft text-[10px] font-semibold accent-emerald",
-												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" }), info.availability]
-											})
-										]
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "flex flex-wrap gap-2 mt-5 pt-5 border-t line-soft",
-									children: [
-										"Full-time",
-										"Contract",
-										"Freelance",
-										"Remote"
-									].map((chip) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "cyber-chip text-[11px]! px-2.5! py-1!",
-										children: chip
-									}, chip))
-								})
-							]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
-							initial: "hidden",
-							animate: "show",
-							variants: fadeUp,
-							transition: { delay: .18 },
-							className: "hyper-glass rounded-3xl p-6 sm:p-7 border border-cyan-500/30 relative overflow-hidden",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-600" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h3", {
-									className: "text-sm font-bold text-strong tracking-wide mb-5 flex items-center gap-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-4 h-4 accent-cyan" }), " Contact Info"]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "space-y-4",
-									children: contactRows.map((row) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "flex items-center gap-3.5 group",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-											className: `p-2.5 rounded-xl bg-gradient-to-br ${row.gradient} border border-white/10 flex-shrink-0`,
-											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: row.accent,
-												children: row.icon
-											})
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											className: "min-w-0",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "text-[10px] font-semibold text-faint uppercase tracking-wider",
-												children: row.label
-											}), row.href ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-												href: row.href,
-												className: "text-sm font-medium text-soft hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors flex items-center gap-1 truncate",
-												children: [row.value, /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {
-													size: 12,
-													className: "opacity-0 group-hover:opacity-100 transition-opacity"
-												})]
-											}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "text-sm font-medium text-strong truncate",
-												children: row.value
-											})]
-										})]
-									}, row.label))
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "mt-5 pt-4 border-t line-soft",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-										className: "text-xs text-faint font-light leading-relaxed flex items-start gap-2",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Clock, {
-											size: 13,
-											className: "accent-cyan flex-shrink-0 mt-0.5"
-										}), info.response_time]
-									})
-								})
-							]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
-							initial: "hidden",
-							animate: "show",
-							variants: fadeUp,
-							transition: { delay: .26 },
-							className: "hyper-glass rounded-3xl p-6 sm:p-7 border border-emerald-500/30 relative overflow-hidden",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-emerald-400 via-teal-500 to-cyan-500" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h3", {
-									className: "text-sm font-bold text-strong tracking-wide mb-5 flex items-center gap-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-4 h-4 accent-emerald" }), " Find Me Online"]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "grid grid-cols-2 sm:grid-cols-3 gap-3",
-									children: socials.filter((s) => s.show_on_website).map((social) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-										href: social.url,
-										target: social.url.startsWith("http") ? "_blank" : void 0,
-										rel: social.url.startsWith("http") ? "noopener noreferrer" : void 0,
-										className: `flex flex-col items-center gap-2 p-3.5 rounded-2xl surface-soft border line-soft text-soft hover:text-strong hover:border-cyan-500/50 hover:-translate-y-1 transition-all duration-300`,
-										children: [socialIcon(social.platform), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "text-[10px] font-semibold",
-											children: social.platform
-										})]
-									}, social.id))
-								})
-							]
-						})
-					]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.div, {
-					initial: "hidden",
-					animate: "show",
-					variants: fadeUp,
-					transition: { delay: .2 },
-					className: "lg:col-span-7",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ContactForm, {
-						emailAddress: info.email,
-						linkedInUrl: socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url && socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url !== "https://linkedin.com" ? socials.find((s) => s.platform.toLowerCase().includes("linkedin"))?.url : "https://www.linkedin.com/in/somnath-haldar-430a3b151/"
-					})
-				})]
-			})]
-		})
-	});
-}
-//#endregion
-//#region src/lib/adminApi.ts
-var getLocalData = (table) => {
-	const data = localStorage.getItem(`demo_${table}`);
-	if (data) return JSON.parse(data);
-	switch (table) {
-		case "profiles": return [fallbackProfile];
-		case "educations": return fallbackEducation;
-		case "certifications": return fallbackCertifications;
-		case "awards": return fallbackAwards;
-		case "languages": return fallbackLanguages;
-		case "experiences": return fallbackExperiences;
-		case "projects": return fallbackProjects;
-		case "skills": return cvSkills;
-		case "social_links": return fallbackSocialLinks;
-		case "contact_info": return [fallbackContactInfo];
-		default: return [];
-	}
-};
-var setLocalData = (table, data) => {
-	localStorage.setItem(`demo_${table}`, JSON.stringify(data));
-};
-async function getAll(table, select = "*") {
-	return getLocalData(table);
-}
-async function create(table, data) {
-	{
-		const localData = getLocalData(table);
-		const newItem = {
-			...data,
-			id: `demo_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-			created_at: (/* @__PURE__ */ new Date()).toISOString()
-		};
-		setLocalData(table, [newItem, ...localData]);
-		return newItem;
-	}
-}
-async function update(table, id, data) {
-	{
-		const localData = getLocalData(table);
-		const index = localData.findIndex((i) => i.id === id);
-		if (index === -1) throw new Error("Not found");
-		const updatedItem = {
-			...localData[index],
-			...data,
-			updated_at: (/* @__PURE__ */ new Date()).toISOString()
-		};
-		localData[index] = updatedItem;
-		setLocalData(table, localData);
-		return updatedItem;
-	}
-}
-async function remove(table, id) {
-	setLocalData(table, getLocalData(table).filter((i) => i.id !== id));
-}
-async function getSocialLinks() {
-	return getAll("social_links");
-}
-async function createSocialLink(data) {
-	return create("social_links", data);
-}
-async function updateSocialLink(id, data) {
-	return update("social_links", id, data);
-}
-async function deleteSocialLink(id) {
-	return remove("social_links", id);
-}
-async function getContactInfo() {
-	{
-		const local = localStorage.getItem("demo_contact_info");
-		if (local) return JSON.parse(local);
-		return fallbackContactInfo;
-	}
-}
-async function updateContactInfo(data) {
-	{
-		const updated = {
-			...await getContactInfo(),
-			...data,
-			updated_at: (/* @__PURE__ */ new Date()).toISOString()
-		};
-		localStorage.setItem("demo_contact_info", JSON.stringify(updated));
-		return updated;
-	}
-}
-async function getCertifications() {
-	return getAll("certifications");
-}
-async function createCertification(data) {
-	return create("certifications", data);
-}
-async function updateCertification(id, data) {
-	return update("certifications", id, data);
-}
-async function deleteCertification(id) {
-	return remove("certifications", id);
-}
-async function getAwards() {
-	return getAll("awards");
-}
-async function createAward(data) {
-	return create("awards", data);
-}
-async function updateAward(id, data) {
-	return update("awards", id, data);
-}
-async function deleteAward(id) {
-	return remove("awards", id);
-}
-async function getLanguages() {
-	return getAll("languages");
-}
-async function createLanguage(data) {
-	return create("languages", data);
-}
-async function updateLanguage(id, data) {
-	return update("languages", id, data);
-}
-async function deleteLanguage(id) {
-	return remove("languages", id);
-}
-async function getExperiences() {
-	return getAll("experiences");
-}
-async function createExperience(data) {
-	return create("experiences", data);
-}
-async function updateExperience(id, data) {
-	return update("experiences", id, data);
-}
-async function deleteExperience(id) {
-	return remove("experiences", id);
-}
-async function getProjects() {
-	return getAll("projects");
-}
-async function getProjectBySlug(slug) {
-	{
-		const found = getLocalData("projects").find((p) => p.slug === slug);
-		if (!found) throw new Error("Project not found");
-		return found;
-	}
-}
-async function createProject(data) {
-	return create("projects", data);
-}
-async function updateProject(id, data) {
-	return update("projects", id, data);
-}
-async function deleteProject(id) {
-	return remove("projects", id);
-}
-async function getSkills() {
-	return getAll("skills");
-}
-async function createSkill(data) {
-	return create("skills", data);
-}
-async function updateSkill(id, data) {
-	return update("skills", id, data);
-}
-async function deleteSkill(id) {
-	return remove("skills", id);
-}
-async function getSiteSettings() {
-	{
-		const local = localStorage.getItem("demo_site_settings");
-		if (local) return JSON.parse(local);
-		return {
-			id: "demo-site-settings",
-			site_title: "Somnath - Pega Developer & Software Engineer",
-			site_description: "Personal professional portfolio showcasing Pega development, Pega Cloud experience, and Agentic AI exploration.",
-			contact_heading: "Let's Connect",
-			projects_heading: "Things I've Built",
-			hero_highlight_1: "Pega Developer",
-			hero_highlight_2: "Pega Cloud",
-			hero_highlight_3: "Agentic AI",
-			hero_highlight_4: "Software Engineering",
-			theme: "system",
-			created_at: "",
-			updated_at: ""
-		};
-	}
-}
-async function updateSiteSettings(data) {
-	{
-		const updated = {
-			...await getSiteSettings(),
-			...data,
-			updated_at: (/* @__PURE__ */ new Date()).toISOString()
-		};
-		localStorage.setItem("demo_site_settings", JSON.stringify(updated));
-		return updated;
-	}
-}
-async function getDashboardStats() {
-	return {
-		projects: getLocalData("projects").length,
-		experiences: getLocalData("experiences").length,
-		skills: getLocalData("skills").length,
-		inquiries: getLocalData("inquiries").length
-	};
-}
-//#endregion
 //#region src/pages/public/Projects.tsx
+var Projects_exports = /* @__PURE__ */ __exportAll({
+	default: () => Projects,
+	fallbackProjects: () => fallbackProjects
+});
 var fallbackProjects = [
 	{
 		id: "p1",
@@ -6830,6 +6368,489 @@ function Projects() {
 	});
 }
 //#endregion
+//#region src/pages/public/SkillsSection.tsx
+var cvSkills = [
+	{
+		id: "s1",
+		category_id: "c1",
+		name: "Pega PRPC",
+		icon: "",
+		description: "Enterprise BPM & case management",
+		experience: "4+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 1,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s2",
+		category_id: "c1",
+		name: "Pega Constellation",
+		icon: "",
+		description: "Modern UI architecture",
+		experience: "2+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 2,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s3",
+		category_id: "c1",
+		name: "Pega CRM Framework",
+		icon: "",
+		description: "Customer relationship management",
+		experience: "3+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 3,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s4",
+		category_id: "c1",
+		name: "Pega Sales Automation",
+		icon: "",
+		description: "Sales platform automation",
+		experience: "2+ years",
+		level: "secondary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 4,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s5",
+		category_id: "c1",
+		name: "Pega DX-API",
+		icon: "",
+		description: "Headless Pega applications",
+		experience: "2+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 5,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s6",
+		category_id: "c3",
+		name: "React Js",
+		icon: "",
+		description: "Frontend development",
+		experience: "2+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 6,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s7",
+		category_id: "c3",
+		name: "HTML, CSS",
+		icon: "",
+		description: "Web fundamentals",
+		experience: "4+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 7,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s8",
+		category_id: "c3",
+		name: "DX Custom Component",
+		icon: "",
+		description: "Custom Constellation components",
+		experience: "2+ years",
+		level: "secondary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 8,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s9",
+		category_id: "c2",
+		name: "SQL Server",
+		icon: "",
+		description: "Relational database management",
+		experience: "3+ years",
+		level: "primary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 9,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s10",
+		category_id: "c2",
+		name: "Service Now",
+		icon: "",
+		description: "ITSM platform",
+		experience: "2+ years",
+		level: "secondary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 10,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s11",
+		category_id: "c2",
+		name: "ALM / JIRA / Confluence",
+		icon: "",
+		description: "Agile lifecycle management",
+		experience: "4+ years",
+		level: "secondary",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 11,
+		created_at: "",
+		updated_at: ""
+	},
+	{
+		id: "s12",
+		category_id: "c2",
+		name: "Agile Methodology",
+		icon: "",
+		description: "Scrum and Kanban frameworks",
+		experience: "4+ years",
+		level: "exploring",
+		featured: true,
+		show_on_website: true,
+		show_on_resume: true,
+		order: 12,
+		created_at: "",
+		updated_at: ""
+	}
+];
+var skillLevelColor = {
+	primary: "accent-cyan border-cyan-500/40 bg-cyan-500/10",
+	secondary: "accent-blue border-blue-500/40 bg-blue-500/10",
+	exploring: "accent-fuchsia border-fuchsia-500/40 bg-fuchsia-500/10"
+};
+function SkillsSection() {
+	const [skills, setSkills] = (0, import_react.useState)([]);
+	(0, import_react.useEffect)(() => {
+		loadData();
+	}, []);
+	const loadData = async () => {
+		try {
+			const s = await getPublicSkills();
+			setSkills(s.length > 0 ? s : cvSkills);
+		} catch {
+			setSkills(cvSkills);
+		}
+	};
+	const primarySkills = skills.filter((s) => s.level === "primary");
+	const secondarySkills = skills.filter((s) => s.level === "secondary");
+	const exploringSkills = skills.filter((s) => s.level === "exploring");
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "relative pb-20",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+				initial: {
+					opacity: 0,
+					y: 25
+				},
+				whileInView: {
+					opacity: 1,
+					y: 0
+				},
+				viewport: { once: true },
+				transition: { duration: .6 },
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-center gap-3 mb-8",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "p-2.5 rounded-xl bg-gradient-to-br from-purple-600/30 to-cyan-500/20 border border-white/10",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cpu, { className: "w-5 h-5 accent-cyan" })
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "cyber-section-title text-2xl sm:text-3xl font-black tracking-tight",
+						children: "Skills & Toolbox"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-xs text-faint font-light mt-0.5",
+						children: "Technologies I build with every day"
+					})] })]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+					children: [
+						...primarySkills,
+						...secondarySkills,
+						...exploringSkills
+					].map((skill, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
+						initial: {
+							opacity: 0,
+							y: 20
+						},
+						whileInView: {
+							opacity: 1,
+							y: 0
+						},
+						viewport: { once: true },
+						transition: {
+							duration: .5,
+							delay: index * .05
+						},
+						whileHover: { y: -5 },
+						className: "hyper-glass rounded-xl p-5 border line-soft cyber-card-hover",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-start justify-between gap-2 mb-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									className: "text-sm font-bold text-strong tracking-wide",
+									children: skill.name
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: `px-2 py-0.5 rounded-full text-[10px] font-semibold border ${skillLevelColor[skill.level] || skillLevelColor.exploring}`,
+									children: skill.level
+								})]
+							}),
+							skill.description && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-xs text-faint font-light mb-3",
+								children: skill.description
+							}),
+							skill.experience && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-1.5 text-[11px] accent-cyan font-mono",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" }), skill.experience]
+							})
+						]
+					}, skill.id))
+				})]
+			})
+		})
+	});
+}
+//#endregion
+//#region src/lib/adminApi.ts
+var getLocalData = (table) => {
+	const data = localStorage.getItem(`demo_${table}`);
+	if (data) return JSON.parse(data);
+	switch (table) {
+		case "profiles": return [fallbackProfile];
+		case "educations": return fallbackEducation;
+		case "certifications": return fallbackCertifications;
+		case "awards": return fallbackAwards;
+		case "languages": return fallbackLanguages;
+		case "experiences": return fallbackExperiences;
+		case "projects": return fallbackProjects;
+		case "skills": return cvSkills;
+		case "social_links": return fallbackSocialLinks;
+		case "contact_info": return [fallbackContactInfo];
+		default: return [];
+	}
+};
+var setLocalData = (table, data) => {
+	localStorage.setItem(`demo_${table}`, JSON.stringify(data));
+};
+async function getAll(table, select = "*") {
+	return getLocalData(table);
+}
+async function create(table, data) {
+	{
+		const localData = getLocalData(table);
+		const newItem = {
+			...data,
+			id: `demo_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+			created_at: (/* @__PURE__ */ new Date()).toISOString()
+		};
+		setLocalData(table, [newItem, ...localData]);
+		return newItem;
+	}
+}
+async function update(table, id, data) {
+	{
+		const localData = getLocalData(table);
+		const index = localData.findIndex((i) => i.id === id);
+		if (index === -1) throw new Error("Not found");
+		const updatedItem = {
+			...localData[index],
+			...data,
+			updated_at: (/* @__PURE__ */ new Date()).toISOString()
+		};
+		localData[index] = updatedItem;
+		setLocalData(table, localData);
+		return updatedItem;
+	}
+}
+async function remove(table, id) {
+	setLocalData(table, getLocalData(table).filter((i) => i.id !== id));
+}
+async function getSocialLinks() {
+	return getAll("social_links");
+}
+async function createSocialLink(data) {
+	return create("social_links", data);
+}
+async function updateSocialLink(id, data) {
+	return update("social_links", id, data);
+}
+async function deleteSocialLink(id) {
+	return remove("social_links", id);
+}
+async function getContactInfo() {
+	{
+		const local = localStorage.getItem("demo_contact_info");
+		if (local) return JSON.parse(local);
+		return fallbackContactInfo;
+	}
+}
+async function updateContactInfo(data) {
+	{
+		const updated = {
+			...await getContactInfo(),
+			...data,
+			updated_at: (/* @__PURE__ */ new Date()).toISOString()
+		};
+		localStorage.setItem("demo_contact_info", JSON.stringify(updated));
+		return updated;
+	}
+}
+async function getCertifications() {
+	return getAll("certifications");
+}
+async function createCertification(data) {
+	return create("certifications", data);
+}
+async function updateCertification(id, data) {
+	return update("certifications", id, data);
+}
+async function deleteCertification(id) {
+	return remove("certifications", id);
+}
+async function getAwards() {
+	return getAll("awards");
+}
+async function createAward(data) {
+	return create("awards", data);
+}
+async function updateAward(id, data) {
+	return update("awards", id, data);
+}
+async function deleteAward(id) {
+	return remove("awards", id);
+}
+async function getLanguages() {
+	return getAll("languages");
+}
+async function createLanguage(data) {
+	return create("languages", data);
+}
+async function updateLanguage(id, data) {
+	return update("languages", id, data);
+}
+async function deleteLanguage(id) {
+	return remove("languages", id);
+}
+async function getExperiences() {
+	return getAll("experiences");
+}
+async function createExperience(data) {
+	return create("experiences", data);
+}
+async function updateExperience(id, data) {
+	return update("experiences", id, data);
+}
+async function deleteExperience(id) {
+	return remove("experiences", id);
+}
+async function getProjects() {
+	return getAll("projects");
+}
+async function getProjectBySlug(slug) {
+	{
+		const found = getLocalData("projects").find((p) => p.slug === slug);
+		if (!found) throw new Error("Project not found");
+		return found;
+	}
+}
+async function createProject(data) {
+	return create("projects", data);
+}
+async function updateProject(id, data) {
+	return update("projects", id, data);
+}
+async function deleteProject(id) {
+	return remove("projects", id);
+}
+async function getSkills() {
+	return getAll("skills");
+}
+async function createSkill(data) {
+	return create("skills", data);
+}
+async function updateSkill(id, data) {
+	return update("skills", id, data);
+}
+async function deleteSkill(id) {
+	return remove("skills", id);
+}
+async function getSiteSettings() {
+	{
+		const local = localStorage.getItem("demo_site_settings");
+		if (local) return JSON.parse(local);
+		return {
+			id: "demo-site-settings",
+			site_title: "Somnath - Pega Developer & Software Engineer",
+			site_description: "Personal professional portfolio showcasing Pega development, Pega Cloud experience, and Agentic AI exploration.",
+			contact_heading: "Let's Connect",
+			projects_heading: "Things I've Built",
+			hero_highlight_1: "Pega Developer",
+			hero_highlight_2: "Pega Cloud",
+			hero_highlight_3: "Agentic AI",
+			hero_highlight_4: "Software Engineering",
+			theme: "system",
+			created_at: "",
+			updated_at: ""
+		};
+	}
+}
+async function updateSiteSettings(data) {
+	{
+		const updated = {
+			...await getSiteSettings(),
+			...data,
+			updated_at: (/* @__PURE__ */ new Date()).toISOString()
+		};
+		localStorage.setItem("demo_site_settings", JSON.stringify(updated));
+		return updated;
+	}
+}
+async function getDashboardStats() {
+	return {
+		projects: getLocalData("projects").length,
+		experiences: getLocalData("experiences").length,
+		skills: getLocalData("skills").length,
+		inquiries: getLocalData("inquiries").length
+	};
+}
+//#endregion
 //#region src/components/admin/dashboard/DashboardStats.tsx
 function DashboardStats() {
 	const [stats, setStats] = (0, import_react.useState)({
@@ -6902,4 +6923,4 @@ function DashboardStats() {
 	});
 }
 //#endregion
-export { getPublicExperiences as $, update as A, Contact as B, getExperiences as C, useNavigate as Ct, getSiteSettings as D, getProjects as E, updateLanguage as F, About as G, fallbackExperiences as H, updateProject as I, fallbackEducation as J, fallbackAwards as K, updateSiteSettings as L, updateCertification as M, updateContactInfo as N, getSkills as O, updateExperience as P, getPublicEducation as Q, updateSkill as R, getContactInfo as S, useLocation as St, getProjectBySlug as T, SkillsSection as U, Experience as V, cvSkills as W, getPublicAwards as X, fallbackProfile as Y, getPublicCertifications as Z, deleteSkill as _, HashRouter as _t, createAward as a, MapPin as at, getAwards as b, Route as bt, createLanguage as c, Globe as ct, createSocialLink as d, Cloud as dt, getPublicProfile as et, deleteAward as f, Clock as ft, deleteProject as g, ArrowRight as gt, deleteLanguage as h, Award as ht, create as i, Star as it, updateAward as j, getSocialLinks as k, createProject as l, FolderGit2 as lt, deleteExperience as m, Briefcase as mt, Projects as n, getPublicSkills as nt, createCertification as o, Layers as ot, deleteCertification as p, Calendar as pt, fallbackCertifications as q, fallbackProjects as r, Target as rt, createExperience as s, GraduationCap as st, DashboardStats as t, getPublicProjects as tt, createSkill as u, ExternalLink as ut, deleteSocialLink as v, Link as vt, getLanguages as w, useParams as wt, getCertifications as x, Routes as xt, getAll as y, Navigate as yt, updateSocialLink as z };
+export { fallbackProfile as $, updateCertification as A, Projects as B, getProjectBySlug as C, Navigate as Ct, getSocialLinks as D, useNavigate as Dt, getSkills as E, useLocation as Et, updateSiteSettings as F, fallbackExperiences as G, fallbackProjects as H, updateSkill as I, About as J, Contact as K, updateSocialLink as L, updateExperience as M, updateLanguage as N, update as O, useParams as Ot, updateProject as P, fallbackEducation as Q, SkillsSection as R, getLanguages as S, Link as St, getSiteSettings as T, Routes as Tt, Experience as U, Projects_exports as V, Experience_exports as W, fallbackAwards as X, About_exports as Y, fallbackCertifications as Z, getAll as _, Calendar as _t, createExperience as a, getPublicProjects as at, getContactInfo as b, ArrowRight as bt, createSkill as c, Star as ct, deleteCertification as d, GraduationCap as dt, getPublicAwards as et, deleteExperience as f, Globe as ft, deleteSocialLink as g, Clock as gt, deleteSkill as h, Cloud as ht, createCertification as i, getPublicProfile as it, updateContactInfo as j, updateAward as k, __vitePreload as kt, createSocialLink as l, MapPin as lt, deleteProject as m, ExternalLink as mt, create as n, getPublicEducation as nt, createLanguage as o, getPublicSkills as ot, deleteLanguage as p, FolderGit2 as pt, Contact_exports as q, createAward as r, getPublicExperiences as rt, createProject as s, Target as st, DashboardStats as t, getPublicCertifications as tt, deleteAward as u, Layers as ut, getAwards as v, Briefcase as vt, getProjects as w, Route as wt, getExperiences as x, HashRouter as xt, getCertifications as y, Award as yt, cvSkills as z };
