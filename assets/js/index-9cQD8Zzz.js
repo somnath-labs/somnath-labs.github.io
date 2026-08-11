@@ -3327,15 +3327,15 @@ function ContactInfoForm({ initialData, onSubmit, onCancel, isLoading }) {
 						value: formData.email || "",
 						onChange: (v) => handleChange("email", v),
 						required: true,
-						placeholder: "contact@somnath.dev"
+						placeholder: "somnathhaldar14@gmail.com"
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FormField, {
-						label: "Phone",
-						name: "phone",
-						value: formData.phone || "",
-						onChange: (v) => handleChange("phone", v),
-						placeholder: "+46 70 000 00 00"
-					}),
+					// /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FormField, {
+					// 	label: "Phone",
+					// 	name: "phone",
+					// 	value: formData.phone || "",
+					// 	onChange: (v) => handleChange("phone", v),
+					// 	placeholder: "+46 70 000 00 00"
+					// }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FormField, {
 						label: "Location",
 						name: "location",
