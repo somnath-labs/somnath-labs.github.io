@@ -1,4 +1,4 @@
-import { $ as require_jsx_runtime, A as createLucideIcon, tt as Link } from "./tab-about-C7I1RF7V.js";
+import { $ as require_jsx_runtime, A as createLucideIcon, tt as Link } from "./tab-about-BqPdI-m5.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *

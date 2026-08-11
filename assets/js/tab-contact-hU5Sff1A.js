@@ -1,5 +1,5 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
-import { $ as require_jsx_runtime, A as createLucideIcon, _ as User, b as MapPin, ct as require_react, h as getPublicSocialLinks, j as motion, l as getPublicContactInfo, x as Mail, y as Sparkles } from "./tab-about-C7I1RF7V.js";
+import { $ as require_jsx_runtime, A as createLucideIcon, _ as User, b as MapPin, ct as require_react, h as getPublicSocialLinks, j as motion, l as getPublicContactInfo, x as Mail, y as Sparkles } from "./tab-about-BqPdI-m5.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -505,7 +505,7 @@ var fallbackContactInfo = {
 	id: "fallback-contact",
 	heading: "Let's Build Something Great",
 	subtitle: "Have a question, opportunity, or just want to say hello? I'd love to hear from you — let's start a conversation.",
-	email: "contact@somnath.dev",
+	email: "somnathhaldar14@gmail.com",
 	phone: "+46 70 000 00 00",
 	location: "Stockholm, Sweden",
 	availability: "Open to opportunities",
@@ -517,7 +517,7 @@ var fallbackContactInfo = {
 var fallbackSocialLinks = [{
 	id: "s-github",
 	platform: "GitHub",
-	url: "https://github.com",
+	url: "https://github.com/somnath-labs",
 	username: "",
 	show_on_website: true,
 	order: 1,
@@ -585,14 +585,6 @@ function Contact() {
 			href: `mailto:${info.email}`,
 			accent: "accent-cyan",
 			gradient: "from-cyan-500/30 to-sky-500/10"
-		},
-		{
-			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { size: 18 }),
-			label: "Phone",
-			value: info.phone,
-			href: info.phone ? `tel:${info.phone.replace(/\s/g, "")}` : null,
-			accent: "accent-purple",
-			gradient: "from-purple-500/30 to-indigo-500/10"
 		},
 		{
 			icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { size: 18 }),

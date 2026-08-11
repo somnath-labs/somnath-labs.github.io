@@ -14885,7 +14885,7 @@ function About() {
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 									className: "pt-5 space-y-2.5",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-										href: "mailto:contact@somnath.dev",
+										href: "mailto:somnathhaldar14@gmail.com",
 										className: "flex items-center gap-3 text-xs text-soft hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "p-2 rounded-lg surface-soft border line-soft",
@@ -14893,7 +14893,7 @@ function About() {
 												size: 14,
 												className: "accent-cyan"
 											})
-										}), "contact@somnath.dev"]
+										}), "somnathhaldar14@gmail.com"]
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 										className: "flex items-center gap-3 text-xs text-soft",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {

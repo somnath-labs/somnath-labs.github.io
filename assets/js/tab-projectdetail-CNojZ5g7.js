@@ -1,6 +1,6 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
-import { $ as require_jsx_runtime, A as createLucideIcon, O as Award, S as Layers, ct as require_react, j as motion, st as useParams, tt as Link, v as Target } from "./tab-about-C7I1RF7V.js";
-import { E as getProjectBySlug, G as Code, U as ExternalLink } from "./tab-home-B91RtgWt.js";
+import { $ as require_jsx_runtime, A as createLucideIcon, O as Award, S as Layers, ct as require_react, j as motion, st as useParams, tt as Link, v as Target } from "./tab-about-BqPdI-m5.js";
+import { E as getProjectBySlug, G as Code, U as ExternalLink } from "./tab-home-DB4VePJI.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *

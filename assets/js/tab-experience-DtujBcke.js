@@ -1,5 +1,5 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
-import { $ as require_jsx_runtime, A as createLucideIcon, E as Briefcase, b as MapPin, ct as require_react, d as getPublicExperiences, g as format, j as motion, y as Sparkles } from "./tab-about-C7I1RF7V.js";
+import { $ as require_jsx_runtime, A as createLucideIcon, E as Briefcase, b as MapPin, ct as require_react, d as getPublicExperiences, g as format, j as motion, y as Sparkles } from "./tab-about-BqPdI-m5.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -117,7 +117,7 @@ var fallbackExperiences = [
 		current: false,
 		description: "Pega Developer with 4+ years of experience in software development, specializing in BPM – Pega PRPC. Worked as a core team member contributing to multiple project modules.",
 		responsibilities: ["Skilled in end-to-end application development, including Activities, Data Transforms, Flow Actions, Declarative Rules, Integrations, Queue Processors, Job Schedulers, Routing, Reports, Data Flows, and Component development", "Delivered Pega training for freshers and provided mentorship to junior team members to support their technical growth"],
-		achievements: ["Recognized for Extraordinary Performance by client Aegon"],
+		achievements: ["Recognized for Extraordinary Performance by client Global Insurance Company Based on UK"],
 		technologies: [
 			"Pega PRPC",
 			"Case Management",

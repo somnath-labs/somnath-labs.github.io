@@ -1,7 +1,7 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
-import { $ as require_jsx_runtime, A as createLucideIcon, B as supportsViewTimeline, D as Bot, F as microtask, G as frameData, H as interpolate, I as isHTMLElement, J as noop, K as velocityPerSecond, L as collectMotionValues, M as MotionConfigContext, N as resize, P as cancelMicrotask, Q as useConstant, R as motionValue, S as Layers, T as Cloud, U as cancelFrame, V as defaultOffset$1, W as frame, X as clamp, Y as invariant, Z as useIsomorphicLayoutEffect, a as fallbackLanguages, ct as require_react, i as fallbackEducation, j as motion, k as ArrowRight, m as getPublicSkills, n as fallbackAwards, o as fallbackProfile, q as progress, r as fallbackCertifications, t as About, tt as Link, w as Cpu, y as Sparkles, z as supportsScrollTimeline } from "./tab-about-C7I1RF7V.js";
-import { a as Globe, i as MessageSquare, n as fallbackContactInfo, r as fallbackSocialLinks, t as Contact } from "./tab-contact-BMS7bVZw.js";
-import { n as fallbackExperiences, t as Experience } from "./tab-experience-p5XJdvQs.js";
+import { $ as require_jsx_runtime, A as createLucideIcon, B as supportsViewTimeline, D as Bot, F as microtask, G as frameData, H as interpolate, I as isHTMLElement, J as noop, K as velocityPerSecond, L as collectMotionValues, M as MotionConfigContext, N as resize, P as cancelMicrotask, Q as useConstant, R as motionValue, S as Layers, T as Cloud, U as cancelFrame, V as defaultOffset$1, W as frame, X as clamp, Y as invariant, Z as useIsomorphicLayoutEffect, a as fallbackLanguages, ct as require_react, i as fallbackEducation, j as motion, k as ArrowRight, m as getPublicSkills, n as fallbackAwards, o as fallbackProfile, q as progress, r as fallbackCertifications, t as About, tt as Link, w as Cpu, y as Sparkles, z as supportsScrollTimeline } from "./tab-about-BqPdI-m5.js";
+import { a as Globe, i as MessageSquare, n as fallbackContactInfo, r as fallbackSocialLinks, t as Contact } from "./tab-contact-hU5Sff1A.js";
+import { n as fallbackExperiences, t as Experience } from "./tab-experience-DtujBcke.js";
 //#region node_modules/motion-dom/dist/es/scroll/observe.mjs
 function observeTimeline(update, timeline) {
 	let prevProgress;
@@ -763,46 +763,6 @@ var Activity = createLucideIcon("activity", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Binary = createLucideIcon("binary", [
-	["rect", {
-		x: "14",
-		y: "14",
-		width: "4",
-		height: "6",
-		rx: "2",
-		key: "p02svl"
-	}],
-	["rect", {
-		x: "6",
-		y: "4",
-		width: "4",
-		height: "6",
-		rx: "2",
-		key: "xm4xkj"
-	}],
-	["path", {
-		d: "M6 20h4",
-		key: "1i6q5t"
-	}],
-	["path", {
-		d: "M14 10h4",
-		key: "ru81e7"
-	}],
-	["path", {
-		d: "M6 14h2v6",
-		key: "16z9wg"
-	}],
-	["path", {
-		d: "M14 4h2v6",
-		key: "1idq9u"
-	}]
-]);
-/**
-* @license lucide-react v1.31.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var Brain = createLucideIcon("brain", [
 	["path", {
 		d: "M12 18V5",
@@ -1156,10 +1116,10 @@ var techNodes = [
 		borderColor: "border-emerald-400/80"
 	},
 	{
-		id: "typescript",
-		name: "TypeScript",
-		category: "Type-Safe Development",
-		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Binary, { className: "w-5 h-5" }),
+		id: "sql",
+		name: "SQL",
+		category: "Database Management",
+		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Database, { className: "w-5 h-5" }),
 		gradient: "from-blue-500 to-indigo-600",
 		glowColor: "rgba(99, 102, 241, 0.6)",
 		borderColor: "border-indigo-400/80"
@@ -2393,7 +2353,7 @@ async function getDashboardStats() {
 var fallbackProjects = [
 	{
 		id: "p1",
-		name: "Aegon",
+		name: "Global Insurance Company Based on UK",
 		slug: "aegon-customer-service",
 		description: "Streamlined customer issue handling and ticket lifecycle management for a leading insurance client.",
 		problem: "",
@@ -2424,7 +2384,7 @@ var fallbackProjects = [
 	},
 	{
 		id: "p2",
-		name: "Unipol Rental",
+		name: "Car Rental and Insurance Company based on Italy",
 		slug: "unipol-rental-platform",
 		description: "Developed 3 separate applications for an insurance-based client to manage customer service and sales automation.",
 		problem: "",

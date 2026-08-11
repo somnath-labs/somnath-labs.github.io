@@ -1,5 +1,5 @@
 import { t as __commonJSMin } from "./rolldown-runtime-DC62tzP2.js";
-import { A as createLucideIcon, ct as require_react } from "./tab-about-C7I1RF7V.js";
+import { A as createLucideIcon, ct as require_react } from "./tab-about-BqPdI-m5.js";
 import { t as require_scheduler } from "./vendor-core-CHW6fcUJ.js";
 //#region node_modules/react-dom/cjs/react-dom.production.js
 /**
