@@ -1,6 +1,5 @@
 import { r as __toESM } from "./rolldown-runtime-DC62tzP2.js";
 import { $ as require_jsx_runtime, A as createLucideIcon, E as Briefcase, b as MapPin, ct as require_react, d as getPublicExperiences, g as format, j as motion, y as Sparkles } from "./tab-about-C7I1RF7V.js";
-import { s as CircleCheck } from "./tab-contact-DefzAKA7.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -29,6 +28,21 @@ var Calendar = createLucideIcon("calendar", [
 		key: "1pudct"
 	}]
 ]);
+/**
+* @license lucide-react v1.31.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var CircleCheck = createLucideIcon("circle-check", [["circle", {
+	cx: "12",
+	cy: "12",
+	r: "10",
+	key: "1mglay"
+}], ["path", {
+	d: "m9 12 2 2 4-4",
+	key: "dzmm74"
+}]]);
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -69,7 +83,7 @@ var fallbackExperiences = [
 	{
 		id: "x1",
 		company_id: "c1",
-		role: "Applications Consultant - Capgemni",
+		role: "Applications Consultant",
 		location: "Stockholm, Sweden",
 		start_date: "2026-04-01",
 		end_date: null,
@@ -96,14 +110,14 @@ var fallbackExperiences = [
 	{
 		id: "x2",
 		company_id: "c2",
-		role: "Associate - Cognizant",
+		role: "Associate",
 		location: "Kolkata, India",
 		start_date: "2025-05-01",
 		end_date: "2026-04-30",
 		current: false,
 		description: "Pega Developer with 4+ years of experience in software development, specializing in BPM – Pega PRPC. Worked as a core team member contributing to multiple project modules.",
 		responsibilities: ["Skilled in end-to-end application development, including Activities, Data Transforms, Flow Actions, Declarative Rules, Integrations, Queue Processors, Job Schedulers, Routing, Reports, Data Flows, and Component development", "Delivered Pega training for freshers and provided mentorship to junior team members to support their technical growth"],
-		achievements: ["Recognized for Extraordinary Performance by client"],
+		achievements: ["Recognized for Extraordinary Performance by client Aegon"],
 		technologies: [
 			"Pega PRPC",
 			"Case Management",
@@ -120,7 +134,7 @@ var fallbackExperiences = [
 	{
 		id: "x3",
 		company_id: "c3",
-		role: "Associate Consultant - Capgemni",
+		role: "Associate Consultant",
 		location: "Kolkata, India",
 		start_date: "2021-12-01",
 		end_date: "2025-05-31",

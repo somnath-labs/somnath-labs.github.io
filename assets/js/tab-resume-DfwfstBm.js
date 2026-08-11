@@ -1,7 +1,7 @@
 import { n as __exportAll, r as __toESM, t as __commonJSMin } from "./rolldown-runtime-DC62tzP2.js";
 import { $ as require_jsx_runtime, A as createLucideIcon, C as GraduationCap, O as Award, _ as User, b as MapPin, c as getPublicCertifications, ct as require_react, d as getPublicExperiences, f as getPublicProfile, i as fallbackEducation, m as getPublicSkills, n as fallbackAwards, o as fallbackProfile, p as getPublicProjects, r as fallbackCertifications, s as getPublicAwards, u as getPublicEducation, x as Mail, y as Sparkles } from "./tab-about-C7I1RF7V.js";
-import { V as cvSkills, W as Download, r as fallbackProjects } from "./tab-home-C32PrTFn.js";
-import { n as fallbackExperiences, r as Calendar } from "./tab-experience-Dabb1ck2.js";
+import { V as cvSkills, W as Download, r as fallbackProjects } from "./tab-home-BRUQjdG5.js";
+import { n as fallbackExperiences, r as Calendar } from "./tab-experience-p5XJdvQs.js";
 //#region node_modules/tslib/tslib.es6.mjs
 function __decorate(decorators, target, key, desc) {
 	var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
