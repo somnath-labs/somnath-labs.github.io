@@ -198,7 +198,7 @@ function FloatingDock() {
 		} else navigate(item.path);
 	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: "fixed bottom-5 left-1/2 transform -translate-x-1/2 z-50 px-2 w-[95%] sm:w-auto max-w-full flex justify-center",
+		className: "fixed bottom-5 left-1/2 transform -translate-x-1/2 z-50 px-2 w-[95%] sm:w-auto max-w-full flex justify-center pb-[env(safe-area-inset-bottom)]",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.div, {
 			initial: {
 				y: 60,

@@ -119,7 +119,7 @@ function Navigation() {
 	}, []);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
 		id: "main-nav",
-		className: "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+		className: "fixed top-[env(safe-area-inset-top,0px)] left-0 right-0 z-50 transition-all duration-500",
 		style: { background: "transparent" },
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("style", { children: `
         #main-nav.nav-scrolled {

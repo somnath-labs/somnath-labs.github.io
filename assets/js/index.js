@@ -87,7 +87,7 @@ var publicRoutes = [
 //#region src/App.tsx
 function PublicLayout({ children }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "min-h-screen cyber-bg-scene text-body flex flex-col overflow-x-hidden",
+		className: "min-h-[100dvh] cyber-bg-scene text-body flex flex-col overflow-x-hidden",
 		children: [
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CyberBackground, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Navigation, {}),
