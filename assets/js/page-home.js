@@ -1,9 +1,10 @@
 import { n as __exportAll, r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, C as useConstant, S as useIsomorphicLayoutEffect, T as Sparkles, _ as velocityPerSecond, a as cancelMicrotask, b as invariant, c as collectMotionValues, d as supportsViewTimeline, f as defaultOffset$1, g as frameData, h as frame, i as resize, j as require_react, l as motionValue, m as cancelFrame, n as motion, o as microtask, p as interpolate, r as MotionConfigContext, s as isHTMLElement, t as AgenticAISection, u as supportsScrollTimeline, v as progress, w as Zap, x as clamp, y as noop } from "./component-agenticaisection.js";
-import { B as Projects, J as About, K as Contact, R as SkillsSection, St as Link, U as Experience, bt as ArrowRight, ct as Star, ft as Globe, ut as Layers } from "./component-dashboardstats.js";
-import { r as Download } from "./component-resumedisplay.js";
-import { t as PegaCloudSection } from "./component-pegacloudsection.js";
+import { i as ArrowRight, n as Layers, o as Link } from "./component-expertiseshowcase.js";
+import { a as SkillsSection, c as Contact, m as Download, n as Projects, o as Experience, u as About } from "./component-resumedisplay.js";
+import { n as Globe, t as PegaCloudSection } from "./component-pegacloudsection.js";
 import { t as PegaSection } from "./component-pegasection.js";
+import { n as Star } from "./component-projectcard.js";
 import { t as TechStackHexGrid } from "./component-techstackhexgrid.js";
 //#region node_modules/motion-dom/dist/es/scroll/observe.mjs
 function observeTimeline(update, timeline) {

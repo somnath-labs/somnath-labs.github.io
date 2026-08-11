@@ -1,7 +1,9 @@
 import { n as __exportAll, r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, j as require_react, k as createLucideIcon, n as motion } from "./component-agenticaisection.js";
-import { C as getProjectBySlug, Ot as useParams, St as Link, mt as ExternalLink, st as Target, ut as Layers, yt as Award } from "./component-dashboardstats.js";
+import { d as useParams, n as Layers, o as Link } from "./component-expertiseshowcase.js";
+import { f as Target, h as Award, i as getProjectBySlug } from "./component-resumedisplay.js";
 import { r as Code } from "./component-pegasection.js";
+import { r as ExternalLink } from "./component-projectcard.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *

@@ -1,7 +1,24 @@
 import { r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, j as require_react, k as createLucideIcon, n as motion } from "./component-agenticaisection.js";
-import { Dt as useNavigate, Et as useLocation, pt as FolderGit2, ut as Layers, vt as Briefcase } from "./component-dashboardstats.js";
+import { l as useLocation, n as Layers, u as useNavigate } from "./component-expertiseshowcase.js";
 import { n as User, r as Mail } from "./component-contactform.js";
+/**
+* @license lucide-react v1.31.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Briefcase = createLucideIcon("briefcase", [["path", {
+	d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",
+	key: "jecpp"
+}], ["rect", {
+	width: "20",
+	height: "14",
+	x: "2",
+	y: "6",
+	rx: "2",
+	key: "i6l2r4"
+}]]);
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -20,6 +37,34 @@ var CodeXml = createLucideIcon("code-xml", [
 	["path", {
 		d: "m14.5 4-5 16",
 		key: "e7oirm"
+	}]
+]);
+/**
+* @license lucide-react v1.31.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var FolderGit2 = createLucideIcon("folder-git-2", [
+	["path", {
+		d: "M18 19a5 5 0 0 1-5-5v8",
+		key: "sz5oeg"
+	}],
+	["path", {
+		d: "M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5",
+		key: "1w6njk"
+	}],
+	["circle", {
+		cx: "13",
+		cy: "12",
+		r: "2",
+		key: "1j92g6"
+	}],
+	["circle", {
+		cx: "20",
+		cy: "19",
+		r: "2",
+		key: "1obnsp"
 	}]
 ]);
 /**
@@ -200,4 +245,4 @@ function FloatingDock() {
 	});
 }
 //#endregion
-export { House as n, CodeXml as r, FloatingDock as t };
+export { Briefcase as a, CodeXml as i, House as n, FolderGit2 as r, FloatingDock as t };

@@ -1,5 +1,5 @@
 import { A as require_jsx_runtime } from "./component-agenticaisection.js";
-import { St as Link } from "./component-dashboardstats.js";
+import { o as Link } from "./component-expertiseshowcase.js";
 import { n as House } from "./component-floatingdock.js";
 //#region src/pages/public/NotFound.tsx
 var import_jsx_runtime = require_jsx_runtime();

@@ -1,7 +1,7 @@
 import { A as require_jsx_runtime, D as Cpu, T as Sparkles, n as motion } from "./component-agenticaisection.js";
-import { ht as Cloud, ut as Layers } from "./component-dashboardstats.js";
+import { n as Layers, r as Cloud } from "./component-expertiseshowcase.js";
+import { i as CodeXml } from "./component-floatingdock.js";
 import { n as Database } from "./component-pegasection.js";
-import { r as CodeXml } from "./component-floatingdock.js";
 //#region src/components/public/workspace/TechStackHexGrid.tsx
 var import_jsx_runtime = require_jsx_runtime();
 var techNodes = [

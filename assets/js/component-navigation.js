@@ -1,7 +1,7 @@
 import { r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, j as require_react, k as createLucideIcon, n as motion } from "./component-agenticaisection.js";
-import { St as Link } from "./component-dashboardstats.js";
-import { r as CodeXml } from "./component-floatingdock.js";
+import { o as Link } from "./component-expertiseshowcase.js";
+import { i as CodeXml } from "./component-floatingdock.js";
 /**
 * @license lucide-react v1.31.0 - ISC
 *

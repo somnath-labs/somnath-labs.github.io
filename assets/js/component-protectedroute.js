@@ -1,8 +1,10 @@
 import { r as __toESM } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, j as require_react } from "./component-agenticaisection.js";
-import { Ct as Navigate } from "./component-dashboardstats.js";
-//#region src/contexts/AuthContext.tsx
+//#region src/lib/supabase.ts
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
+console.warn("Supabase environment variables not set. Some features may not work.");
+//#endregion
+//#region src/contexts/AuthContext.tsx
 var import_jsx_runtime = require_jsx_runtime();
 var AuthContext = (0, import_react.createContext)(void 0);
 function AuthProvider({ children }) {
@@ -54,24 +56,5 @@ function AuthProvider({ children }) {
 		children
 	});
 }
-function useAuth() {
-	const context = (0, import_react.useContext)(AuthContext);
-	if (context === void 0) throw new Error("useAuth must be used within an AuthProvider");
-	return context;
-}
 //#endregion
-//#region src/components/admin/ProtectedRoute.tsx
-function ProtectedRoute({ children }) {
-	const { user, isAdmin, loading } = useAuth();
-	if (loading) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: "min-h-screen flex items-center justify-center",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 dark:border-gray-100" })
-	});
-	if (!user || !isAdmin) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Navigate, {
-		to: "/x8k2m5n7-studio-console/login",
-		replace: true
-	});
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_jsx_runtime.Fragment, { children });
-}
-//#endregion
-export { AuthProvider as n, useAuth as r, ProtectedRoute as t };
+export { AuthProvider as t };

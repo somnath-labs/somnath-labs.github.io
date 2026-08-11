@@ -1,6 +1,6 @@
 import { n as __exportAll } from "./rolldown-runtime.js";
 import { A as require_jsx_runtime, T as Sparkles } from "./component-agenticaisection.js";
-import { n as FileText, t as ResumeDisplay } from "./component-resumedisplay.js";
+import { p as FileText, t as ResumeDisplay } from "./component-resumedisplay.js";
 //#region src/pages/public/Resume.tsx
 var Resume_exports = /* @__PURE__ */ __exportAll({ default: () => Resume });
 var import_jsx_runtime = require_jsx_runtime();
