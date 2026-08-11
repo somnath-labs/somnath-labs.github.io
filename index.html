@@ -44,9 +44,80 @@
     <link rel="modulepreload" crossorigin href="/assets/js/component-footer.js">
     <link rel="modulepreload" crossorigin href="/assets/js/component-cyberbackground.js">
     <link rel="modulepreload" crossorigin href="/assets/js/page-notfound.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/component-ailoader.js">
     <link rel="stylesheet" crossorigin href="/assets/css/index.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <style>
+        body, html { margin: 0; padding: 0; background-color: #06070b; }
+        .ai-loader-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100dvh;
+          width: 100vw;
+          font-family: 'Inter', system-ui, sans-serif;
+          color: #0891b2;
+        }
+        .ai-core {
+          position: relative;
+          width: 80px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .ai-ring-outer {
+          position: absolute;
+          inset: 0;
+          border-radius: 50%;
+          border: 2px solid transparent;
+          border-top-color: #0891b2;
+          border-bottom-color: #9333ea;
+          animation: spin 2s linear infinite;
+          box-shadow: 0 0 20px rgba(8, 145, 178, 0.4);
+        }
+        .ai-ring-inner {
+          position: absolute;
+          inset: 12px;
+          border-radius: 50%;
+          border: 2px dashed #0284c7;
+          animation: spin-reverse 3s linear infinite;
+        }
+        .ai-core-dot {
+          width: 16px;
+          height: 16px;
+          background: #0891b2;
+          border-radius: 50%;
+          box-shadow: 0 0 15px #0891b2, 0 0 30px #0891b2;
+          animation: pulse 1.5s ease-in-out infinite alternate;
+        }
+        .ai-text {
+          margin-top: 30px;
+          font-size: 14px;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          font-weight: 600;
+          background: linear-gradient(90deg, #0891b2, #9333ea);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: pulse-text 2s ease-in-out infinite;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        @keyframes spin-reverse { 100% { transform: rotate(-360deg); } }
+        @keyframes pulse { 0% { transform: scale(0.8); opacity: 0.7; } 100% { transform: scale(1.2); opacity: 1; } }
+        @keyframes pulse-text { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      </style>
+      <div class="ai-loader-container">
+        <div class="ai-core">
+          <div class="ai-ring-outer"></div>
+          <div class="ai-ring-inner"></div>
+          <div class="ai-core-dot"></div>
+        </div>
+        <div class="ai-text">Initializing Agent...</div>
+      </div>
+    </div>
   </body>
 </html>

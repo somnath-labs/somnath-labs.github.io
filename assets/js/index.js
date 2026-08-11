@@ -9,6 +9,7 @@ import { t as Navigation } from "./component-navigation.js";
 import { t as Footer } from "./component-footer.js";
 import { t as CyberBackground } from "./component-cyberbackground.js";
 import { t as NotFound } from "./page-notfound.js";
+import { t as AiLoader } from "./component-ailoader.js";
 //#region \0vite/modulepreload-polyfill.js
 (function polyfill() {
 	const relList = document.createElement("link").relList;
@@ -102,10 +103,7 @@ function PublicLayout({ children }) {
 }
 function App() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AuthProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HashRouter, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.Suspense, {
-		fallback: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "min-h-screen flex items-center justify-center text-cyan-400",
-			children: "Loading..."
-		}),
+		fallback: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AiLoader, {}),
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Routes, { children: [
 			publicRoutes.map((route) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Route, {
 				path: route.path,
